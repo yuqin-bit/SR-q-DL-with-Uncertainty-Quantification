@@ -9,7 +9,7 @@ keras <br />
 tensorflow <br />**
 
 Here is how to run the scripts. For SR-*q*-DL, run <br />
-> CUDA_VISIBLE_DEVICES=0 time python SR-q-DL.py < list of training normalized diffusion images> < list of training brain mask images > < number of microstructure measures to be estimated > < list of training microstructure 1 > ... < list of training microstructure N > < list of test normalized diffusion images > < list of test brain mask images > < input patch size > < output patch size > < upsampling rate > < output directory > < control variable for normalizing microstructure > < dictionary size > < number N1 of channels > < number N2 of channels > <br />
+> CUDA_VISIBLE_DEVICES=0 time python SR-q-DL.py < list of training normalized diffusion images> < list of training brain mask images > < number of microstructure measures to be estimated > < list of training microstructure 1 > ... < list of training microstructure N > < list of test normalized diffusion images > < list of test brain mask images > < input patch size > < output patch size > < upsampling rate > < output directory > < control variable for normalizing microstructure > < dictionary size N_d > < number N_1 of channels > < number N_2 of channels > <br />
 
 Note that the control variable for normalizing microstructure is set to zero in this case.
 
