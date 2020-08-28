@@ -1,5 +1,8 @@
 # SR-q-DL-with-Uncertainty-Quantification
 
+This is a python demo for the paper:<br />
+**Yu Qin et al., "Multimodal Super-Resolved q-Space Deep Learning" (submitted to MedIA).** 
+
 The demo includes both the training and test phase for the SR-*q*-DL and probabilistic SR-*q*-DL. Therefore, to run it, both the training and test data (which are images in the NIfTI format) should be prepared. The input diffusion signals should be normalized by the b0 signals.
 
 There are a few dependencies that need to be installed:<br />
